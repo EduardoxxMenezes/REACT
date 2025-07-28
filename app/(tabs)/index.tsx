@@ -1,5 +1,5 @@
 import React from "react";
-import {View, StyleSheet} from 'react-native'
+import {View, StyleSheet, Modal} from 'react-native'
 // importamos o componente criado
 import Titulo from "@/components/Titulo";
 import Imagem from "@/components/ui/imagem";
@@ -11,6 +11,7 @@ import { ScrollView } from "react-native-gesture-handler";
 import TextPI from "@/components/ui/text2";
 import ScrollPI from "@/components/ui/scrollview2";
 import TextImputPI from "@/components/ui/textInput2";
+import ModalTDS from "@/components/ui/Modal241T";
 
 export default function App(){
   return(
@@ -31,6 +32,7 @@ export default function App(){
     <TextImputPI/>
     <ScrollPI/>
     <ButtonTDS/>
+    <ModalTDS/>
     </View> 
 
   )
